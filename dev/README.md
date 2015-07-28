@@ -1,5 +1,4 @@
 #dev
-Docker com Wildfly de produção + JDK de produção.
 
 Versões nas imagens Docker:
 
