@@ -1,6 +1,6 @@
 #antara-start
 
-Docker para  JBOSS7 ou WILDFLY com JDK7 ou JDK8 
+Docker com  JBOSS7 ou WILDFLY com JDK7 ou JDK8 
 ===============================================
 
 dev --> instruções e arquivos para configurar ambiente de DESENVOLVIMENTO.
