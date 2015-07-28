@@ -1,9 +1,19 @@
 # wildfly
 Docker com Wildfly de produção + JDK de produção
 
-Versão WildFly = 8.2.1
+Versões:
+	WildFly = 8.2.1	-	JDK = 1.8.1_45
 
-Versão JDK = 1.8.1_45
+
+1) Fazer um "fork" do 
+
+
+Comandos para execução do "docker" com acesso ao repositório interno:
+	
+	sudo service docker stop
+	
+	sudo docker -d --insecure-registry=["10.1.1.30:5000"] &
+	
 
 
 
