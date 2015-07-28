@@ -3,6 +3,7 @@ Docker com Wildfly de produção + JDK de produção.
 
 Versões:
 	WildFly = 8.2.1	-	JDK = 1.8.0_45
+
 	Jboss7  = 7.0.2 - 	JDK = 1.7.0_79
 
 
