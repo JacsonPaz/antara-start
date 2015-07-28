@@ -25,7 +25,7 @@ Estrutura sugerida para múltiplas configs:
 
 	docker
 	|-- deployments
-	|-- versoes
+	|-- environments
 	   |-- mingxin
 	  	|run-wildfly.sh
 	  	|standalone.sh
