@@ -12,9 +12,13 @@ Comandos para execução do "docker" com acesso ao repositório interno:
 	sudo docker -d --insecure-registry 10.1.1.30:5000 &
 	
 	
-Na pasta local, disponibilizar o diretório "deployments" e o arquivo "configuration.xml". Após isso, executar o comando a seguir:
+Na pasta local, disponibilizar o diretório "deployments" e o arquivo "configuration.xml". Após isso, executar um dos comandos a seguir:
 
-	sh run-docker.sh
+	sh run-wildfly.sh
+	
+	ou
+	
+	sh run-jboss7.sh
 	
 
 Estrutura sugerida para múltiplas configs:
@@ -23,14 +27,17 @@ Estrutura sugerida para múltiplas configs:
 	|-- deployments
 	|-- versoes
 	   |-- mingxin
-	  	|run-docker.sh
+	  	|run-wildfly.sh
 	  	|standalone.sh
 	  	|antara-server-configuration.jar
-	   |-- fuxin
-	  	|run-docker.sh
+	   |-- abuhler
+	  	|run-jboss7.sh
 	  	|standalone.sh
 	  	|antara-server-configuration.jar
-	  |
+	   |-- cliente xx
+		|...
+		|...
+		|...
 	
 
 
