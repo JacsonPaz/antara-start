@@ -9,7 +9,7 @@ Comandos para execução do "docker" com acesso ao repositório interno:
 	
 	sudo service docker stop
 	
-	sudo docker -d --insecure-registry=["10.1.1.30:5000"] &
+	sudo docker -d --insecure-registry 10.1.1.30:5000 &
 	
 	
 Na pasta local, disponibilizar o diretório "deployments" e o arquivo "configuration.xml". Após isso, executar o comando a seguir:
