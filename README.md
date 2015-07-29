@@ -3,11 +3,11 @@
 Docker com  JBOSS7 ou WILDFLY com JDK7 ou JDK8 
 ===============================================
 
-- dev --> instruções e arquivos para configurar ambiente de DESENVOLVIMENTO.
+- dev --> instruções e arquivos para configurar ambiente nas máquinas do DESENVOLVIMENTO.
 
-- tta --> instruções e arquivos para configurar ambiente de TESTE LOCAL e em CLIENTE.
+- tta --> instruções e arquivos para configurar ambiente do servidor de TESTE LOCAL e em CLIENTES.
 
-- pta --> instruções e arquivos para configurar ambiente de PRODUÇÃO
+- pta --> instruções e arquivos para configurar ambiente de PRODUÇÃO.
 
 
 Instalar/Atualizar DOCKER:

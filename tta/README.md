@@ -23,24 +23,22 @@ Disponibilizar o diretório "deployments" e o arquivo "configuration.xml" confor
 	sh run-jboss7.sh
 	
 
-Estrutura sugerida para múltiplas configs:
+Estrutura sugerida para múltiplas configs: (cliente-banco-porta)
 
-	docker
-	|-- deployments
-	|-- environments
-	   |-- mingxin
+	docker	
+	   |-- mingxin-mingxinDulceTTA-7000
 	  	|run-wildfly.sh
 	  	|standalone.sh
-	  	|antara-server-configuration.jar
-	   |-- abuhler
+	  	|deployments
+	   |-- abuhler-abuhler20150404-7001
 	  	|run-jboss7.sh
 	  	|standalone.sh
-	  	|antara-server-configuration.jar
-	   |-- cliente xx
+	  	|deployments
+	   |-- cliente-banco-porta
 		|...
 		|...
 		|...
-	   |-- cliente yy
+	   |-- cliente-banco-porta
 		|...
 		|...
 		|...
