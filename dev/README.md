@@ -25,23 +25,22 @@ Disponibilizar o diretório "deployments" e o arquivo "configuration.xml" confor
 
 Estrutura sugerida para múltiplas configs:
 
-	|--docker
-		|-- deployments
-	  	|-- environments
-	     		|-- mingxin
-	  			|run-wildfly.sh
-	  			|standalone.sh
-	  			|antara-server-configuration.jar
-	     		|-- abuhler
-	  			|run-jboss7.sh
-	  			|standalone.sh
-	  			|antara-server-configuration.jar
-	     		|-- cliente xx
-				|...
-				|...
-				|...
-	     		|-- cliente yy
-				|...
-				|...
-				|...
-
+	docker
+	|-- deployments
+	|-- environments
+		|-- mingxin
+			|run-wildfly.sh
+	  		|standalone.sh
+	  		|antara-server-configuration.jar
+	 	|-- abuhler
+	  		|run-jboss7.sh
+	  		|standalone.sh
+	  		|antara-server-configuration.jar
+	     	|-- cliente xx
+			|...
+			|...
+			|...
+	     	|-- cliente yy
+			|...
+			|...
+			|...
