@@ -36,11 +36,12 @@ Estrutura sugerida para múltiplas configs:
 	  		|run-jboss7.sh
 	  		|standalone.sh
 	  		|antara-server-configuration.jar
-	     |-- cliente xx
-	     	|...
-	     	|...			
-	     	|...
-	     |-- cliente yy
-	     	|...
-	     	|...
-	     	|...
+	  	|-- cliente xx
+			|run-wildfly.sh
+	  		|standalone.sh
+	  		|antara-server-configuration.jar
+	 	|-- cliente yy
+	  		|run-jboss7.sh
+	  		|standalone.sh
+	  		|antara-server-configuration.jar
+	  
