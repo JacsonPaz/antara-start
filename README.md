@@ -10,9 +10,10 @@ Docker com  JBOSS7 ou WILDFLY com JDK7 ou JDK8
 - pta --> instruções e arquivos para configurar ambiente de PRODUÇÃO
 
 
-Para quem não tem DOCKER instalado, ou o comando "sudo docker version" retornar versão inferior a 1.6:
+Instalar/Atualizar DOCKER:
 ==============================================
 
-https://docs.docker.com/installation/
+Para quem não tem DOCKER instalado, ou o comando "sudo docker version" retornar versão inferior a 1.6:
+ - https://docs.docker.com/installation/
 
 
