@@ -27,21 +27,16 @@ Estrutura sugerida para múltiplas configs:
 	docker
 	|-- mingxin
 		|run-wildfly.sh
-  		|standalone.sh
 		|--deployments
  	|-- abuhler
  		|run-jboss7.sh
-  		|standalone.sh
 		|--deployments
 		|--nfe			
 		   |--template
   	|-- cliente xx
 		|run-wildfly.sh
-  		|standalone.sh
 		|--deployments
-		|--nfe
  	|-- cliente yy
   		|run-jboss7.sh
-  		|standalone.sh
 		|--deployments
 	  
