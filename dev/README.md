@@ -13,9 +13,10 @@ Comandos para execução do "docker" com acesso ao repositório interno:
         sudo docker -d --insecure-registry 10.1.1.30:5000 &
 
 
-Disponibilizar o diretório "deployments" e o arquivo "configuration.xml" conforme estrutura mais abaixo. Para rodar o Wildfly ou o Jboss, executar o comando a seguir:
+Disponibilizar o diretório "deployments" e o arquivo "run.conf" conforme estrutura mais abaixo. Para rodar o Wildfly ou o Jboss, executar o comando a seguir:
 
         sh run.sh
+        
 
 Banco, portas e jboss (jboss7 ou wildfly) ficam definidos no arquivo de configuração run.conf
 
@@ -23,17 +24,19 @@ Estrutura sugerida para múltiplas configs:
 
 	docker
 	|-- mingxin
-		|run-wildfly.sh
+		|run.conf
+		|run.sh
 		|--deployments
  	|-- abuhler
- 		|run-jboss7.sh
+ 		|run.conf
+ 		|run.sh
 		|--deployments
 		|--nfe			
 		   |--template
   	|-- cliente xx
-		|run-wildfly.sh
-		|--deployments
+		|...
+		|...
  	|-- cliente yy
-  		|run-jboss7.sh
-		|--deployments
+  		|...
+		|...
 	  
