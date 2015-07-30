@@ -28,18 +28,16 @@ Estrutura sugerida para múltiplas configs: (cliente-banco-porta)
 	docker	
 	   |-- mingxin-mingxinDulceTTA-7000
 	  	|run-wildfly.sh
-	  	|standalone.sh
-	  	|deployments
+	  	|--deployments
 	   |-- abuhler-abuhler20150404-7001
 	  	|run-jboss7.sh
-	  	|standalone.sh
-	  	|deployments
+	  	|--deployments
+	  	|--nfe
+	  	   |--template
 	   |-- cliente-banco-porta
 		|...
 		|...
-		|...
 	   |-- cliente-banco-porta
-		|...
 		|...
 		|...
 
