@@ -29,11 +29,11 @@ Estrutura sugerida para múltiplas configs: (cliente-banco-porta)
 
 	docker
 	  |--ambientes
-	    |-- mingxin-mingxinDulceTTA-7000
-	  	|run.sh
-		|run.conf
-	  	|--deployments
-	    |-- abuhler-abuhler20150404-7001
+	    	|-- mingxin-mingxinDulceTTA-7000
+	  		|run.sh
+			|run.conf
+	  		|--deployments
+	    	|-- abuhler-abuhler20150404-7001
 	  	|run.sh
 		|run.conf
 	  	|--deployments
