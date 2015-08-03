@@ -6,6 +6,8 @@ Versões nas imagens Docker:
 
 	Jboss7  = 7.0.2    - 	JDK = 1.7.0_79
 	
+	Jboss5  = 4.0.2_GA -    JDK = 1.7.0_79
+	
 	Migration = versão 2014
 
 
@@ -20,24 +22,27 @@ Disponibilizar o diretório "deployments" e os arquivos "run.conf" e "run.sh" co
 
 	sh run.sh
 	
+ATENÇÃO: a pasta "DEPLOYMENTS" de um ambiente jboss4 deve conter 
+
 
 Estrutura sugerida para múltiplas configs: (cliente-banco-porta)
 
-	docker	
-	   |-- mingxin-mingxinDulceTTA-7000
+	docker
+	  |--ambientes
+	    |-- mingxin-mingxinDulceTTA-7000
 	  	|run.sh
 		|run.conf
 	  	|--deployments
-	   |-- abuhler-abuhler20150404-7001
+	    |-- abuhler-abuhler20150404-7001
 	  	|run.sh
 		|run.conf
 	  	|--deployments
 	  	|--nfe
 	  	   |--template
-	   |-- cliente-banco-porta
+	    |-- cliente-banco-porta
 		|...
 		|...
-	   |-- cliente-banco-porta
+	    |-- cliente-banco-porta
 		|...
 		|...
 
