@@ -22,8 +22,6 @@ Disponibilizar o diretório "deployments" e os arquivos "run.conf" e "run.sh" co
 
 	sh run.sh
 	
-ATENÇÃO: a pasta "DEPLOYMENTS" de um ambiente jboss4 deve conter todos os artefatos de uma pasta "deploy". No subdiretório do ambiente 8095, há uma pasta já montada para cópia. 
-
 Estrutura sugerida para múltiplas configs: (cliente-banco-porta)
 
 	docker
